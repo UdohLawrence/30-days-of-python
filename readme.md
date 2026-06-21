@@ -28,14 +28,13 @@ If you're following along, fork this repo, star it, and tag your own progress wi
 
 1. Each day has a folder: `day_1/`
 2. Every folder contains:
-   - `notes.md` — concise notes and key takeaways
-   - `exercises.py` — practice problems for that day
+   - `exercises.md` — practice problems for that day
    - `solutions.py` — my worked solutions
-   - `README.md` — a short summary of what was covered
 3. Progress is tracked in the table below and updated daily.
 4. Each day gets its own commit, ideally with a clear message like `Day 07: Sets & Frozensets`.
 
 ### Rules I'm Holding Myself To
+
 - ⏱️ Minimum 1 hour of focused coding per day.
 - 🚫 No skipping — if a day is missed, it's made up before moving forward, not skipped.
 - 📝 Every day ships with at least one runnable exercise file.
@@ -70,38 +69,38 @@ pip install -r requirements.txt
 
 ## 🗓️ The 30-Day Curriculum
 
-| Day | Topic | Status |
-|----|-------|--------|
-| 01 | Introduction, Installation & Setup | ⬜ |
-| 02 | Variables, Data Types & Built-in Functions | ⬜ |
-| 03 | Operators (Arithmetic, Comparison, Logical) | ⬜ |
-| 04 | Strings & String Methods | ⬜ |
-| 05 | Lists & List Methods | ⬜ |
-| 06 | Tuples | ⬜ |
-| 07 | Sets & Frozensets | ⬜ |
-| 08 | Dictionaries | ⬜ |
-| 09 | Conditionals (`if` / `elif` / `else`) | ⬜ |
-| 10 | Loops (`for`, `while`, `break`, `continue`) | ⬜ |
-| 11 | Functions & Scope | ⬜ |
-| 12 | Higher-Order Functions, `lambda`, `map`/`filter`/`reduce` | ⬜ |
-| 13 | List, Set & Dict Comprehensions | ⬜ |
-| 14 | Modules & Packages | ⬜ |
-| 15 | Exception Handling (`try`/`except`/`finally`) | ⬜ |
-| 16 | File Handling (read/write/CSV) | ⬜ |
-| 17 | `datetime` & Working with Time | ⬜ |
-| 18 | Working with JSON | ⬜ |
-| 19 | Object-Oriented Programming I (Classes & Objects) | ⬜ |
-| 20 | Object-Oriented Programming II (Inheritance, Magic Methods) | ⬜ |
-| 21 | Regular Expressions | ⬜ |
-| 22 | Virtual Environments & `pip` | ⬜ |
-| 23 | Working with APIs & `requests` | ⬜ |
-| 24 | Intro to NumPy | ⬜ |
-| 25 | Intro to Pandas I | ⬜ |
-| 26 | Intro to Pandas II | ⬜ |
-| 27 | Data Visualization with Matplotlib | ⬜ |
-| 28 | Mini Project: Data Analysis Script | ⬜ |
-| 29 | Intro to Flask (Web Basics) | ⬜ |
-| 30 | Capstone Project: Putting It All Together | ⬜ |
+| Day | Topic                                                       | Status |
+| --- | ----------------------------------------------------------- | ------ |
+| 01  | Introduction, Installation & Setup                          | ⬜     |
+| 02  | Variables, Data Types & Built-in Functions                  | ⬜     |
+| 03  | Operators (Arithmetic, Comparison, Logical)                 | ⬜     |
+| 04  | Strings & String Methods                                    | ⬜     |
+| 05  | Lists & List Methods                                        | ⬜     |
+| 06  | Tuples                                                      | ⬜     |
+| 07  | Sets & Frozensets                                           | ⬜     |
+| 08  | Dictionaries                                                | ⬜     |
+| 09  | Conditionals (`if` / `elif` / `else`)                       | ⬜     |
+| 10  | Loops (`for`, `while`, `break`, `continue`)                 | ⬜     |
+| 11  | Functions & Scope                                           | ⬜     |
+| 12  | Higher-Order Functions, `lambda`, `map`/`filter`/`reduce`   | ⬜     |
+| 13  | List, Set & Dict Comprehensions                             | ⬜     |
+| 14  | Modules & Packages                                          | ⬜     |
+| 15  | Exception Handling (`try`/`except`/`finally`)               | ⬜     |
+| 16  | File Handling (read/write/CSV)                              | ⬜     |
+| 17  | `datetime` & Working with Time                              | ⬜     |
+| 18  | Working with JSON                                           | ⬜     |
+| 19  | Object-Oriented Programming I (Classes & Objects)           | ⬜     |
+| 20  | Object-Oriented Programming II (Inheritance, Magic Methods) | ⬜     |
+| 21  | Regular Expressions                                         | ⬜     |
+| 22  | Virtual Environments & `pip`                                | ⬜     |
+| 23  | Working with APIs & `requests`                              | ⬜     |
+| 24  | Intro to NumPy                                              | ⬜     |
+| 25  | Intro to Pandas I                                           | ⬜     |
+| 26  | Intro to Pandas II                                          | ⬜     |
+| 27  | Data Visualization with Matplotlib                          | ⬜     |
+| 28  | Mini Project: Data Analysis Script                          | ⬜     |
+| 29  | Intro to Flask (Web Basics)                                 | ⬜     |
+| 30  | Capstone Project: Putting It All Together                   | ⬜     |
 
 **Legend:** ⬜ Not started · 🟨 In progress · ✅ Complete
 
