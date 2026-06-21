@@ -1,0 +1,30 @@
+# import math
+
+print(3 + 4)
+print(3 - 4)
+print(3 * 4)
+print(3 % 4)
+print(3 / 4)
+print(3 ** 4)
+print(3 // 4)
+
+print(type(10))
+print(type(9.8))
+print(type(3.14))
+print(type(4 - 4j))
+print(type(['Asabeneh', 'Python', 'Finland']))
+print(type("Ekomobong"))
+print(type("Lawrence"))
+print(type("Nigeria"))
+
+print(type(50))
+print(type(8.99))
+print(type(3 - 5j))
+print(type('Sattire'))
+print(type(True))
+print(type([16, 'Ekomobong', 'Etimbuk']))
+print(type((10, 15, 16, 3, 4)))
+print(type({10, 15, 16, 3, 4}))
+print(type({'name': 'Ekomobong', 'age': 40, "occupation": "Software Developer"}))
+
+# print(math.sqrt((2 - 10) ** 2 - (3 - 8) ** 2))
