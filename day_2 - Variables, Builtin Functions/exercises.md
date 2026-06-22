@@ -1,6 +1,6 @@
-## 💻 Exercises - Day 2
+# 💻 Exercises - Day 2
 
-### Exercises: Level 1
+## Exercises: Level 1
 
 1. Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py
 2. Write a python comment saying 'Day 2: 30 Days of python programming'
@@ -16,7 +16,7 @@
 12. Declare a variable is_light_on and assign a value to it
 13. Declare multiple variable on one line
 
-### Exercises: Level 2
+## Exercises: Level 2
 
 1. Check the data type of all your variables using type() built-in function
 2. Using the _len()_ built-in function, find the length of your first name
