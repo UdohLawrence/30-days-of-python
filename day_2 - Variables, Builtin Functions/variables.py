@@ -43,7 +43,7 @@ print(f"Area of a circle with radius {radius} is {area_of_circle}cm^2")
 circum_of_circle = 2 * 3.14 * radius
 print(f"Circumference of a circle with radius {radius} is {circum_of_circle}cm")
 
-input_radius = int(input("Enter a value for the radius of your circle: "))
+input_radius = float(input("Enter a value for the radius of your circle: "))
 input_area = 3.14 * input_radius ** 2
 print(f"Area of a circle with radius {input_radius} is {input_area}cm^2")
 input_circum = 2 * 3.14 * input_radius
