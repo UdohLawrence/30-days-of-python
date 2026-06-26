@@ -76,3 +76,91 @@ print("Coding For All"[10])
 print()
 
 # Question 18
+acronym_python = 'PFE'
+print(acronym_python)
+print()
+
+# Question 19
+acronym_coding = 'CFA'
+print(acronym_coding)
+print()
+
+# Question 20
+print("Coding For All".index('C'))
+print()
+
+# Question 21
+print("Coding For All".index('F'))
+print()
+
+# Question 22
+print("Coding For All".rfind('l'))
+print()
+
+# Question 23
+print("You cannot end a sentence with because because because is a conjunction".index('because'))
+print()
+
+# Question 24
+print("You cannot end a sentence with because because because is a conjunction".rindex('because'))
+print()
+
+# Question 25
+print("You cannot end a sentence with because because because is a conjunction"[31:54])
+print()
+
+# Question 26
+print("You cannot end a sentence with because because because is a conjunction".index("because"))
+print()
+
+# Question 27
+print("You cannot end a sentence with because because because is a conjunction"[31:54])
+print()
+
+# Question 28
+print("Coding For All".startswith("Coding"))
+print()
+
+# Question 29
+print("Coding For All".endswith("coding"))
+print()
+
+# Question 30
+print("   Coding For All   ".strip())
+print()
+
+# Question 31
+#print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python".isidentifier())
+print()
+
+# Question 32
+python_libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+joined_libraries = ' '.join(python_libraries)
+print(joined_libraries)
+print()
+
+# Question 33
+print("I am enjoying this challenge.\nI just wonder what is next")
+print()
+
+# Question 34
+print("Name\t\tAge\tCountry\t\tCity")
+print("Ekomobong\t40\tNigeria\t\tIkot Ekpene")
+print()
+
+# Question 35
+radius = 10
+area = 3.14 * radius ** 2
+print(f"The area of a circle with radius {radius} is {int(area)} meters square.")
+print()
+
+# Question 36
+print(f"8 + 6 = {8 + 6}")
+print(f"8 - 6 = {8 - 6}")
+print(f"8 * 6 = {8 * 6}")
+print(f"8 / 6 = {8 / 6}")
+print(f"8 % 6 = {8 % 6}")
+print(f"8 // 6 = {8 // 6}")
+print(f"8 ** 6 = {8 ** 6}")
+print()
