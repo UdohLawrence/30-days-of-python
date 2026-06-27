@@ -120,6 +120,248 @@ max_age = ages.pop(-1)
 ages.insert(0, min_age)
 ages.append(max_age)
 
-# print(ages)
+print(ages)
 
-print(len(ages))
+# c
+
+if len(ages) % 2 == 0:
+    median_age = (ages[len(ages) // 2] + ages[len(ages) // 2 - 1]) / 2
+else:
+    median_age = ages[len(ages) // 2]
+
+print(f"Median age: {median_age}")
+
+# d
+sum_of_ages = sum(ages)
+average_age = sum_of_ages / len(ages)
+print(f"Average age: {average_age}")
+
+# e
+age_range = max_age - min_age
+print(f"Age range: {age_range}")
+
+print(f"Minimum value - Average value: {abs(min_age - average_age)}")
+print(f"Maximum value - Average value: {abs(max_age - average_age)}")
+
+countries = [
+  'Afghanistan',
+  'Albania',
+  'Algeria',
+  'Andorra',
+  'Angola',
+  'Antigua and Barbuda',
+  'Argentina',
+  'Armenia',
+  'Australia',
+  'Austria',
+  'Azerbaijan',
+  'Bahamas',
+  'Bahrain',
+  'Bangladesh',
+  'Barbados',
+  'Belarus',
+  'Belgium',
+  'Belize',
+  'Benin',
+  'Bhutan',
+  'Bolivia',
+  'Bosnia and Herzegovina',
+  'Botswana',
+  'Brazil',
+  'Brunei',
+  'Bulgaria',
+  'Burkina Faso',
+  'Burundi',
+  'Cabo Verde',
+  'Cambodia',
+  'Cameroon',
+  'Canada',
+  'Central African Republic',
+  'Chad',
+  'Chile',
+  'China',
+  'Colombia',
+  'Comoros',
+  'Congo, Democratic Republic of the',
+  'Congo, Republic of the',
+  'Costa Rica',
+  "Côte d'Ivoire",
+  'Croatia',
+  'Cuba',
+  'Cyprus',
+  'Czech Republic',
+  'Denmark',
+  'Djibouti',
+  'Dominica',
+  'Dominican Republic',
+  'East Timor (Timor-Leste)',
+  'Ecuador',
+  'Egypt',
+  'El Salvador',
+  'Equatorial Guinea',
+  'Eritrea',
+  'Estonia',
+  'Eswatini',
+  'Ethiopia',
+  'Fiji',
+  'Finland',
+  'France',
+  'Gabon',
+  'Gambia',
+  'Georgia',
+  'Germany',
+  'Ghana',
+  'Greece',
+  'Grenada',
+  'Guatemala',
+  'Guinea',
+  'Guinea-Bissau',
+  'Guyana',
+  'Haiti',
+  'Honduras',
+  'Hungary',
+  'Iceland',
+  'India',
+  'Indonesia',
+  'Iran',
+  'Iraq',
+  'Ireland',
+  'Israel',
+  'Italy',
+  'Jamaica',
+  'Japan',
+  'Jordan',
+  'Kazakhstan',
+  'Kenya',
+  'Kiribati',
+  'Korea, North',
+  'Korea, South',
+  'Kuwait',
+  'Kyrgyzstan',
+  'Laos',
+  'Latvia',
+  'Lebanon',
+  'Lesotho',
+  'Liberia',
+  'Libya',
+  'Liechtenstein',
+  'Lithuania',
+  'Luxembourg',
+  'Madagascar',
+  'Malawi',
+  'Malaysia',
+  'Maldives',
+  'Mali',
+  'Malta',
+  'Marshall Islands',
+  'Mauritania',
+  'Mauritius',
+  'Mexico',
+  'Micronesia',
+  'Moldova',
+  'Monaco',
+  'Mongolia',
+  'Montenegro',
+  'Morocco',
+  'Mozambique',
+  'Myanmar',
+  'Namibia',
+  'Nauru',
+  'Nepal',
+  'Netherlands',
+  'New Zealand',
+  'Nicaragua',
+  'Niger',
+  'Nigeria',
+  'North Macedonia',
+  'Norway',
+  'Oman',
+  'Pakistan',
+  'Palau',
+  'Palestine',
+  'Panama',
+  'Papua New Guinea',
+  'Paraguay',
+  'Peru',
+  'Philippines',
+  'Poland',
+  'Portugal',
+  'Qatar',
+  'Romania',
+  'Russia',
+  'Rwanda',
+  'Saint Kitts and Nevis',
+  'Saint Lucia',
+  'Saint Vincent and the Grenadines',
+  'Samoa',
+  'San Marino',
+  'Sao Tome and Principe',
+  'Saudi Arabia',
+  'Senegal',
+  'Serbia',
+  'Seychelles',
+  'Sierra Leone',
+  'Singapore',
+  'Slovakia',
+  'Slovenia',
+  'Solomon Islands',
+  'Somalia',
+  'South Africa',
+  'South Sudan',
+  'Spain',
+  'Sri Lanka',
+  'Sudan',
+  'Suriname',
+  'Sweden',
+  'Switzerland',
+  'Syria',
+  'Tajikistan',
+  'Tanzania',
+  'Thailand',
+  'Togo',
+  'Tonga',
+  'Trinidad and Tobago',
+  'Tunisia',
+  'Turkey',
+  'Turkmenistan',
+  'Tuvalu',
+  'Uganda',
+  'Ukraine',
+  'United Arab Emirates',
+  'United Kingdom',
+  'United States',
+  'Uruguay',
+  'Uzbekistan',
+  'Vanuatu',
+  'Vatican City',
+  'Venezuela',
+  'Vietnam',
+  'Yemen',
+  'Zambia',
+  'Zimbabwe'
+]
+
+print(len(countries))
+middle_country = countries[len(countries) // 2]
+print(middle_country)
+print(countries.index(middle_country))
+
+
+if len(countries) % 2 == 0:
+  first_countries = countries[:len(countries) // 2 - 1]
+  last_countries = countries[len(countries) // 2:]
+else:
+  first_countries = countries[:len(countries) // 2 + 1]
+  last_countries = countries[len(countries) // 2 + 1:]
+print(len(first_countries))
+  
+print(len(last_countries))
+
+print((len(first_countries) + len(last_countries)) == len(countries))
+
+first, second, third, *scandic = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+
+print(first)
+print(second)
+print(third)
+print(scandic)
